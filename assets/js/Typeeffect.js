@@ -2,9 +2,10 @@ document.addEventListener("DOMContentLoaded", function () {
   const typingElement = document.querySelector("#connect-typing");
 
   const taglines = [
-    "Crafting code, one bug at a time",
-    "A problem ignored is a problem unsolved",
-    "Coding my way to make a difference"
+    "Crafting solutions, one code at a time",
+    "Coding my way to make a difference",
+    "This is Lorence Glen B. Muros",
+    "Let's Connect!"
   ];
 
   let index = 0;
