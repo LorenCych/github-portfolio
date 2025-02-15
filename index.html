@@ -26,7 +26,7 @@
 </head>
 
 <body style="background: rgb(21,7,30);color: var(--bs-light);">
-    <nav class="navbar navbar-expand-md py-3" style="background: rgb(102,0,61);--bs-primary: rgb(102,0,61);--bs-primary-rgb: 102,0,61;">
+    <nav class="navbar navbar-expand-md sticky-top py-3" style="background: rgb(102,0,61);--bs-primary: rgb(102,0,61);--bs-primary-rgb: 102,0,61;">
         <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="background: rgb(193,0,104);"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-brilliance" style="font-size: 20px;">
                         <path d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16M1 8a7 7 0 0 0 7 7 3.5 3.5 0 1 0 0-7 3.5 3.5 0 1 1 0-7 7 7 0 0 0-7 7"></path>
                     </svg></span><span style="color: var(--bs-light);"><strong>LORENCE</strong></span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
@@ -39,7 +39,7 @@
             </div>
         </div>
     </nav>
-    <section class="mb-md-5 pt-md-3 mt-md-3 mb-5" style="padding-bottom: 30px;">
+    <section class="pt-md-3 mt-md-3 mb-4 mb-md-3 pb-md-2 pb-sm-2" style="padding-bottom: 30px;">
         <div class="container mt-sm-3 mb-3 mt-3"><small style="color: rgba(255,255,255,0.75);--bs-body-font-weight: normal;font-family: Inter, sans-serif;">WELCOME! I AM</small>
             <h1 class="fw-normal lh-base" style="font-family: 'DM Serif Display', serif;max-width: 440px;color: rgb(102,0,61);"><span style="background-color: rgb(255, 254, 255);">&nbsp;LORENCE GLEN MUROS&nbsp;</span></h1>
             <h1 class="fw-normal lh-base me-1 pe-0 mt-sm-4 mb-sm-5 mb-md-5 mb-lg-5 mb-xxl-5" style="font-family: 'DM Serif Display', serif;max-width: 440px;">I deliver <span style="background-color: rgb(102, 0, 61);">Solutions</span><br>by developing useful <span style="background-color: rgb(102, 0, 61);">Applications</span></h1>
@@ -56,15 +56,15 @@
             </div>
         </div>
     </section>
-    <section class="mb-4">
-        <div class="container">
+    <section class="mb-4 mt-4">
+        <div class="container mt-0">
             <h2 style="font-family: 'DM Serif Display', serif;">Selected Projects</h2>
             <p style="max-width: 450px;">Here are some of my works where I get to use my skills in developing applications, be it a desktop or website application.</p>
             <section class="py-4 py-xl-5 ms-md-0 ps-md-0 pt-md-0 me-md-0 pe-md-0 mb-0 mt-0 pb-2 pt-2 pt-xl-2 pb-xl-2">
                 <div class="container ps-md-0 pe-md-0">
                     <div class="bg-dark border rounded border-0 border-dark overflow-hidden">
                         <div class="row g-0">
-                            <div class="col-md-6" style="background: #21450f;">
+                            <div class="col d-flex" style="background: #21450f;">
                                 <div class="text-white p-4 p-md-5 ms-md-0 ps-md-3 pe-md-4 pt-md-4 pb-md-4" style="display: grid;"><small style="color: rgba(255,255,255,0.75);">C# Windows Forms Application</small>
                                     <h3 class="text-white mb-3 fw-400" style="font-family: 'DM Serif Display', serif;--bs-body-font-weight: normal;">CLAMBook: Campus Library Attendance Management System</h3>
                                     <ul class="list-inline" style="margin-left: 10;">
@@ -74,7 +74,7 @@
                                         <li class="list-inline-item" style="margin-right: 5px;background: #026602;padding-top: 4px;padding-right: 6px;padding-bottom: 4px;padding-left: 6px;border-radius: 4px;margin-bottom: 6px;">Microsoft SQL Server Express</li>
                                         <li class="list-inline-item" style="margin-right: 5px;background: #026602;padding-top: 4px;padding-right: 6px;padding-bottom: 4px;padding-left: 6px;border-radius: 4px;margin-bottom: 6px;">Networking</li>
                                     </ul>
-                                    <p class="mb-4">Leading a 4-person team, we created an attendance management system for my university's library. The system's two application work hand-in-hand in providing efficient attendance logging, monitoring, and report generation.</p>
+                                    <p class="mb-4">Leading a <strong>4-person team</strong>, we developed an <strong>attendance management system</strong> for my university's library. The system consists of <strong>two interconnected applications</strong> that streamline <strong>attendance logging, monitoring, and report generation</strong>, improving efficiency for both students and administrators.</p>
                                     <div class="my-3"><a class="btn btn-primary me-2 btn-sm" role="button" data-bss-hover-animate="pulse" href="projects/clambook.html" style="background: #026602;border-color: #02691f;">View Project</a></div>
                                 </div>
                             </div>
@@ -89,12 +89,20 @@
                         <div class="row g-0">
                             <div class="col d-flex" style="background: #0f2e45;">
                                 <div class="text-white p-4 p-md-5 ms-md-0 ps-md-3 pe-md-4 pt-md-4 pb-md-4" style="background: #0f2e45;display: grid;"><small style="color: rgba(255,255,255,0.75);">ASP.NET Core Application</small>
-                                    <h3 class="text-white mb-3 fw-400" style="font-family: 'DM Serif Display', serif;--bs-body-font-weight: normal;">GrocerEase: Inventory Management System</h3>
-                                    <p class="mb-4">Together with a 2-person team, we developed an inventory management system responsible for stock level monitoring, product organization, organizing documentation of products, product-suppliers, and report generation.</p>
+                                    <h3 class="text-white mb-3 fw-400 pb-0" style="font-family: 'DM Serif Display', serif;--bs-body-font-weight: normal;">GrocerEase: Inventory Management System</h3>
+                                    <ul class="list-inline" style="margin-left: 10;">
+                                        <li class="list-inline-item" style="margin-right: 5px;background: #023066;padding-top: 4px;padding-right: 6px;padding-bottom: 4px;padding-left: 6px;border-radius: 4px;margin-bottom: 6px;">C#</li>
+                                        <li class="list-inline-item" style="margin-right: 5px;background: #023066;padding-top: 4px;padding-right: 6px;padding-bottom: 4px;padding-left: 6px;border-radius: 4px;margin-bottom: 6px;">Web-based</li>
+                                        <li class="list-inline-item" style="margin-right: 5px;background: #023066;padding-top: 4px;padding-right: 6px;padding-bottom: 4px;padding-left: 6px;border-radius: 4px;margin-bottom: 6px;">.Net Core</li>
+                                        <li class="list-inline-item" style="margin-right: 5px;background: #023066;padding-top: 4px;padding-right: 6px;padding-bottom: 4px;padding-left: 6px;border-radius: 4px;margin-bottom: 6px;">ASP.Net Core</li>
+                                        <li class="list-inline-item" style="margin-right: 5px;background: #023066;padding-top: 4px;padding-right: 6px;padding-bottom: 4px;padding-left: 6px;border-radius: 4px;margin-bottom: 6px;">MVC Architecture</li>
+                                        <li class="list-inline-item" style="margin-right: 5px;background: #023066;padding-top: 4px;padding-right: 6px;padding-bottom: 4px;padding-left: 6px;border-radius: 4px;margin-bottom: 6px;">Microsoft SQL Server Express</li>
+                                    </ul>
+                                    <p class="mb-4">Collaborating with a <strong>2-person team</strong>, we built an <strong>inventory management system</strong> designed for <strong>real-time stock monitoring, product organization, supplier documentation, and report generation</strong>. This system optimizes inventory tracking and management for small-scale businesses.</p>
                                     <div class="my-3 mb-0 mt-0"><a class="btn btn-primary me-2 btn-sm" role="button" href="#" style="background: #024866;border-color: #024866;">View Project</a><a class="btn btn-light btn-sm" role="button" href="#">View Documentation</a></div>
                                 </div>
                             </div>
-                            <div class="col-md-6 order-first order-md-last" style="min-height: 250px;"><img alt="A vivid abstract bokeh background with blue and purple lights, perfect for design use." class="w-100 h-100 fit-cover" src="assets/img/pexels-photo-370799.jpeg" style="width: 100%;height: 100%;"></div>
+                            <div class="col-md-6 order-first order-md-last" style="min-height: 250px;"><img class="w-100 h-100 fit-cover" src="assets/img/Screenshot%20(918).png" style="width: 100%;height: 100%;"></div>
                         </div>
                     </div>
                 </div>
@@ -104,13 +112,19 @@
                     <div class="bg-dark border rounded border-0 border-dark overflow-hidden">
                         <div class="row g-0">
                             <div class="col-md-6" style="background: #0f4538;display: grid;">
-                                <div class="text-white p-4 p-md-5 ms-md-0 ps-md-3 pe-md-4 pt-md-4 pb-md-4" style="display: grid;background: #48261e;"><small style="color: rgba(255,255,255,0.75);">PHP Application</small>
-                                    <h3 class="text-white mb-3 fw-400" style="font-family: 'DM Serif Display', serif;--bs-body-font-weight: normal;">Miyoku: E-Commerce Application</h3>
-                                    <p class="mb-4">An E-Commerce Application&nbsp;<br>Miyoku is a social commerce platform that combines the interactive nature of social media with the transactional ease of e-commerce. The platform specializes in <em>kawaii-inspired</em> (cute) handmade goods, artisan crafts, and personalized items, fostering a vibrant community of creators and shoppers.</p>
-                                    <div class="my-3"><a class="btn btn-primary me-2 btn-sm" role="button" href="#" style="background: #65472c;border-style: none;border-color: #024866;">View Project&nbsp;</a><a class="btn btn-light btn-sm" role="button" href="#">View Documentation</a></div>
+                                <div class="text-white p-4 p-md-5 ms-md-0 ps-md-3 pe-md-4 pt-md-4 pb-md-4" style="display: grid;background: #191615;"><small style="color: rgba(255,255,255,0.75);">Webflow Website</small>
+                                    <h3 class="text-white mb-3 fw-400" style="font-family: 'DM Serif Display', serif;--bs-body-font-weight: normal;">CMS-Powered Blogging Platform</h3>
+                                    <ul class="list-inline" style="margin-left: 10;">
+                                        <li class="list-inline-item" style="margin-right: 5px;background: #00090e;padding-top: 4px;padding-right: 6px;padding-bottom: 4px;padding-left: 6px;border-radius: 4px;margin-bottom: 6px;">No-Code Development</li>
+                                        <li class="list-inline-item" style="margin-right: 5px;background: #00090e;padding-top: 4px;padding-right: 6px;padding-bottom: 4px;padding-left: 6px;border-radius: 4px;margin-bottom: 6px;">Webflow</li>
+                                        <li class="list-inline-item" style="margin-right: 5px;background: #00090e;padding-top: 4px;padding-right: 6px;padding-bottom: 4px;padding-left: 6px;border-radius: 4px;margin-bottom: 6px;">CMS</li>
+                                        <li class="list-inline-item" style="margin-right: 5px;background: #00090e;padding-top: 4px;padding-right: 6px;padding-bottom: 4px;padding-left: 6px;border-radius: 4px;margin-bottom: 6px;">Web Design</li>
+                                    </ul>
+                                    <p class="mb-4">I created a <strong>personal blogging site</strong> powered by Webflow's Content Management System (CMS). This project highlights my ability to design and develop <strong>responsive, dynamic websites</strong> without coding, utilizing Webflow’s CMS for <strong>structured content organization, customizable blog entries, and an intuitive user experience</strong>.</p>
+                                    <div class="my-3"><a class="btn btn-primary me-2 btn-sm" role="button" href="#" style="background: #000611;border-style: none;border-color: #024866;">View Project&nbsp;</a><a class="btn btn-light btn-sm" role="button" href="#">View Documentation</a></div>
                                 </div>
                             </div>
-                            <div class="col-md-6 order-first order-md-last" style="min-height: 250px;"><img alt="Detailed close-up of natural stone marble texture with beige and brown patterns." class="w-100 h-100 fit-cover" src="assets/img/pexels-photo-4709030.jpeg" style="width: 100%;height: 100%;"></div>
+                            <div class="col-md-6 order-first order-md-last" style="min-height: 250px;"><img alt="grayscale photo of two zebras" class="w-100 h-100 fit-cover" src="assets/img/photo-1532517308734-0565178471d2.jpg" style="width: 100%;height: 100%;"></div>
                         </div>
                     </div>
                 </div>
