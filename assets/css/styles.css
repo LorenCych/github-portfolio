@@ -40,3 +40,42 @@ features-paragraph {
   font-weight: lighter;
 }
 
+/* Project card hover effects */
+.bg-dark.border.rounded {
+  transition: all 0.3s ease;
+}
+
+.bg-dark.border.rounded:hover {
+  transform: translateY(-5px);
+}
+
+/* Dental Clinic Project - Golden glow */
+.bg-dark.border.rounded:has([style*="background: #bf8f09"]):hover,
+.bg-dark.border.rounded:has([style*="background:#bf8f09"]):hover {
+  box-shadow: 0 8px 30px rgba(228, 171, 25, 0.4), 
+              0 0 25px rgba(228, 171, 25, 0.3);
+}
+
+/* PairTalk Project - Purple glow (targets the unique purple color in badges) */
+.bg-dark.border.rounded:has([style*="background: #4e076c"]):hover,
+.bg-dark.border.rounded:has([style*="background:#4e076c"]):hover,
+.bg-dark.border.rounded:has([style*="background: #300137"]):hover,
+.bg-dark.border.rounded:has([style*="background:#300137"]):hover {
+  box-shadow: 0 8px 30px rgba(115, 11, 159, 0.5), 
+              0 0 25px rgba(165, 100, 255, 0.4) !important;
+}
+
+/* GrocerEase Project - Blue glow (only if it has #024866 badges, not #4e076c) */
+.bg-dark.border.rounded:has([style*="background: #024866"]):hover,
+.bg-dark.border.rounded:has([style*="background:#024866"]):hover {
+  box-shadow: 0 8px 30px rgba(2, 72, 102, 0.5), 
+              0 0 25px rgba(52, 152, 219, 0.4);
+}
+
+/* CLAMBook Project - Green glow */
+.bg-dark.border.rounded:has([style*="background: #21450f"]):hover,
+.bg-dark.border.rounded:has([style*="background:#21450f"]):hover {
+  box-shadow: 0 8px 30px rgba(68, 159, 11, 0.5),
+              0 0 25px rgba(46, 204, 113, 0.4);
+}
+
