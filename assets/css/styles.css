@@ -51,7 +51,11 @@ features-paragraph {
 
 /* Dental Clinic Project - Golden glow */
 .bg-dark.border.rounded:has([style*="background: #bf8f09"]):hover,
-.bg-dark.border.rounded:has([style*="background:#bf8f09"]):hover {
+.bg-dark.border.rounded:has([style*="background:#bf8f09"]):hover,
+.bg-dark.border.rounded:has([style*="background: rgb(228,171,25)"]):hover,
+.bg-dark.border.rounded:has([style*="background:rgb(228,171,25)"]):hover,
+.bg-dark.border.rounded:has([style*="background: rgb(228, 171, 25)"]):hover,
+.bg-dark.border.rounded:has([style*="background:rgb(228, 171, 25)"]):hover {
   box-shadow: 0 8px 30px rgba(228, 171, 25, 0.4), 
               0 0 25px rgba(228, 171, 25, 0.3);
 }
