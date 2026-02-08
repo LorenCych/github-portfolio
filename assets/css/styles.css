@@ -40,46 +40,71 @@ features-paragraph {
   font-weight: lighter;
 }
 
-/* Project card hover effects */
-.bg-dark.border.rounded {
-  transition: all 0.3s ease;
+/* Project Section Hover Effects */
+.project-section {
+  cursor: default;
 }
 
-.bg-dark.border.rounded:hover {
-  transform: translateY(-5px);
+.project-section .bg-dark {
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  border: 2px solid transparent;
+  box-sizing: border-box;
 }
 
-/* Dental Clinic Project - Golden glow */
-.bg-dark.border.rounded:has([style*="background: #bf8f09"]):hover,
-.bg-dark.border.rounded:has([style*="background:#bf8f09"]):hover,
-.bg-dark.border.rounded:has([style*="background: rgb(228,171,25)"]):hover,
-.bg-dark.border.rounded:has([style*="background:rgb(228,171,25)"]):hover,
-.bg-dark.border.rounded:has([style*="background: rgb(228, 171, 25)"]):hover,
-.bg-dark.border.rounded:has([style*="background:rgb(228, 171, 25)"]):hover {
-  box-shadow: 0 8px 30px rgba(228, 171, 25, 0.4), 
-              0 0 25px rgba(228, 171, 25, 0.3);
+/* ECamias Companion - Green Theme */
+.project-section.ecamias-theme:hover .bg-dark {
+  box-shadow: 0 0 25px rgba(143, 163, 30, 0.5), 0 0 50px rgba(143, 163, 30, 0.3), 0 0 75px rgba(143, 163, 30, 0.1);
+  transform: translateY(-3px);
+  border-color: rgba(143, 163, 30, 0.3);
 }
 
-/* PairTalk Project - Purple glow (targets the unique purple color in badges) */
-.bg-dark.border.rounded:has([style*="background: #4e076c"]):hover,
-.bg-dark.border.rounded:has([style*="background:#4e076c"]):hover,
-.bg-dark.border.rounded:has([style*="background: #300137"]):hover,
-.bg-dark.border.rounded:has([style*="background:#300137"]):hover {
-  box-shadow: 0 8px 30px rgba(115, 11, 159, 0.5), 
-              0 0 25px rgba(165, 100, 255, 0.4) !important;
+/* CERBERUS - Purple Theme */
+.project-section.cerberus-theme:hover .bg-dark {
+  box-shadow: 0 0 25px rgba(112, 40, 162, 0.5), 0 0 50px rgba(112, 40, 162, 0.3), 0 0 75px rgba(112, 40, 162, 0.1);
+  transform: translateY(-3px);
+  border-color: rgba(112, 40, 162, 0.3);
 }
 
-/* GrocerEase Project - Blue glow (only if it has #024866 badges, not #4e076c) */
-.bg-dark.border.rounded:has([style*="background: #024866"]):hover,
-.bg-dark.border.rounded:has([style*="background:#024866"]):hover {
-  box-shadow: 0 8px 30px rgba(2, 72, 102, 0.5), 
-              0 0 25px rgba(52, 152, 219, 0.4);
+/* Dental Clinic - Gold Theme */
+.project-section.dental-theme:hover .bg-dark {
+  box-shadow: 0 0 25px rgba(228, 171, 25, 0.5), 0 0 50px rgba(228, 171, 25, 0.3), 0 0 75px rgba(228, 171, 25, 0.1);
+  transform: translateY(-3px);
+  border-color: rgba(228, 171, 25, 0.3);
 }
 
-/* CLAMBook Project - Green glow */
-.bg-dark.border.rounded:has([style*="background: #21450f"]):hover,
-.bg-dark.border.rounded:has([style*="background:#21450f"]):hover {
-  box-shadow: 0 8px 30px rgba(68, 159, 11, 0.5),
-              0 0 25px rgba(46, 204, 113, 0.4);
+/* PairTalk - Dark Purple Theme */
+.project-section.pairtalk-theme:hover .bg-dark {
+  box-shadow: 0 0 25px rgba(78, 7, 108, 0.5), 0 0 50px rgba(78, 7, 108, 0.3), 0 0 75px rgba(78, 7, 108, 0.1);
+  transform: translateY(-3px);
+  border-color: rgba(78, 7, 108, 0.3);
 }
+
+/* GrocerEase - Blue Theme */
+.project-section.grocerease-theme:hover .bg-dark {
+  box-shadow: 0 0 25px rgba(2, 72, 102, 0.5), 0 0 50px rgba(2, 72, 102, 0.3), 0 0 75px rgba(2, 72, 102, 0.1);
+  transform: translateY(-3px);
+  border-color: rgba(2, 72, 102, 0.3);
+}
+
+/* CLAMBook - Green Theme */
+.project-section.clambook-theme:hover .bg-dark {
+  box-shadow: 0 0 25px rgba(2, 102, 2, 0.5), 0 0 50px rgba(2, 102, 2, 0.3), 0 0 75px rgba(2, 102, 2, 0.1);
+  transform: translateY(-3px);
+  border-color: rgba(2, 102, 2, 0.3);
+}
+
+/* Skills Section Hover Effect */
+.skills-card {
+  transition: all 0.3s ease-in-out;
+  cursor: default;
+  position: relative;
+}
+
+/* Skills cards hover effect disabled per user request
+.skills-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 20px rgba(102, 0, 61, 0.4), 0 0 40px rgba(102, 0, 61, 0.2), 0 0 60px rgba(102, 0, 61, 0.1);
+}
+*/
 
